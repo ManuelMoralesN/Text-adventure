@@ -87,7 +87,7 @@ int main() {
         if (indiceActual == 9) {
             mostrarMensaje("¡Has llegado a la Sala del Desafio Final! Preparate para la batalla contra Moctezuma.");
 
-            // Logica para la batalla final y finalizacion del juego
+            
             if (guerreroCuauhtemoc.tieneItem("Espada Sagrada") && guerreroCuauhtemoc.tieneItem("Collar de Proteccion") && guerreroCuauhtemoc.tieneItem("Mapa Antiguo") && guerreroCuauhtemoc.tieneItem("Zafiro Centelleante") && guerreroCuauhtemoc.tieneItem("Red de Pesca Espiritual") && guerreroCuauhtemoc.tieneItem("Botella de Esencia Floral") && guerreroCuauhtemoc.tieneItem("Garras del Aguila") && guerreroCuauhtemoc.tieneItem("Antorcha de Luz")) {
                 mostrarMensaje("Con tus objetos sagrados, enfrentas a Moctezuma. La Espada Sagrada brilla con poder, el Collar de Proteccion te resguarda, el Mapa Antiguo revela tacticas, el Zafiro Centelleante desorienta a Moctezuma, la Red de Pesca Espiritual lo atrapa, la Botella de Esencia Floral fortalece tu espiritu, las Garras del Aguila te otorgan destreza, y la Antorcha de Luz disipa las sombras.");
                 mostrarMensaje("¡Has derrotado a Moctezuma y completado tu mision con honor!\n"
